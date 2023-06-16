@@ -8,6 +8,12 @@
 #sleep_in(True, False) → False
 #sleep_in(False, True) → True
 def sleep_in(weekday, vacation):
-   print('Hola a todos')
+   if not weekday or vacation:
+      return True
+   else:
+      return False
 
-sleep_in(1, 2)
+print(sleep_in(False, False)) #True
+print(sleep_in(False, True)) #True
+print(sleep_in(True, False)) #False
+print(sleep_in(True, True)) #True
