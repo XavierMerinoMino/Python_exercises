@@ -8,6 +8,6 @@
 #sleep_in(True, False) → False
 #sleep_in(False, True) → True
 def sleep_in(weekday, vacation):
-   print('Hola')
+   print('Hola a todos')
 
 sleep_in(1, 2)
